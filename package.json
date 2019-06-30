@@ -12,7 +12,7 @@
   },
   "author": "Olga Isaeva",
   "license": "ISC",
-  "homepage": "https://github.com/olgaisaeva/wesbos-js30-challenge.git",
+  "homepage": "https://github.com/olgaisaeva/wesbos-js30-challenge#readme",
   "devDependencies": {
     "eslint": "^6.0.1",
     "eslint-config-airbnb-base": "^13.1.0",
