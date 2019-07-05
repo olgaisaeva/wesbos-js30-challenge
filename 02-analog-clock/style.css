@@ -1,0 +1,76 @@
+/* Reset */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+}
+
+/* Main Styling */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(images/wall.jpeg) no-repeat center center/cover;
+  min-height: 100vh;
+}
+
+/* Clock Face */
+.clock {
+  position: relative;
+  padding: 2rem;
+  width: 30rem;
+  height: 30rem;
+  border: 2rem solid #66a597;
+  border-radius: 50%;
+  background: #f4f4f4 url(images/clock.svg) no-repeat center;
+  background-size: 89%;
+  box-shadow:
+    0 0 10px 4px rgba(0, 0, 0, 0.5),
+    inset 0 0 0 2px #efefef,
+    inset 0 0 10px 5px #66a597;
+}
+
+.clock::after {
+  position: absolute;
+  z-index: 10;
+  width: 5%;
+  height: 5%;
+  content: "";
+  background: #222;
+  border-radius: 50%;
+  left: 47.5%;
+  top: 47.5%;
+}
+
+/* Hands */
+.hand {
+  position: absolute;
+  background: #222;
+  transform-origin: 50% 100%;
+  transition: all 0.05s;
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1); /* Adding bounce */
+}
+
+.hours {
+  width: 2.5%;
+  height: 25%;
+  left: 48.8%;
+  top: 25%;
+}
+
+.minutes {
+  width: 2%;
+  height: 40%;
+  left: 49%;
+  top: 10%;
+}
+
+.seconds {
+  width: 1%;
+  height: 45%;
+  left: 49.5%;
+  top: 14%;
+  background: #66a597;
+  transform-origin: 50% 80%;
+}
