@@ -9,3 +9,4 @@ This repository contains challenges from 30 Day Vanilla JS Coding Challenge orga
 
 - [01 - DRUM KIT PROJECT](https://github.com/olgaisaeva/wesbos-js30-challenge/tree/master/01-js-drum-kit)
 - [02 - ANALOG CLOCK PROJECT](https://github.com/olgaisaeva/wesbos-js30-challenge/tree/master/02-analog-clock)
+- [03 - CSS VARIABLES PROJECT](https://github.com/olgaisaeva/wesbos-js30-challenge/tree/master/03-css-variables)
