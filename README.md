@@ -11,3 +11,4 @@ This repository contains challenges from 30 Day Vanilla JS Coding Challenge orga
 - [02 - ANALOG CLOCK PROJECT](https://github.com/olgaisaeva/wesbos-js30-challenge/tree/master/02-analog-clock)
 - [03 - CSS VARIABLES PROJECT](https://github.com/olgaisaeva/wesbos-js30-challenge/tree/master/03-css-variables)
 - [04 - ARRAY CARDIO DAY](https://github.com/olgaisaeva/wesbos-js30-challenge/tree/master/04-array-cardio-day)
+- [05 - FLEX PANEL GALLERY](https://github.com/olgaisaeva/wesbos-js30-challenge/tree/master/05-flex-panel-gallery)
