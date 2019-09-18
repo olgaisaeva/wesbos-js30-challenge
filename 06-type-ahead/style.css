@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: linear-gradient(#c0ffb3, #52de97, #3c9d9b, #394a6d);
+  min-height: 100vh;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.search-form {
+  margin: 5rem auto;
+  padding: 1rem;
+  max-width: 50rem;
+}
+
+.search {
+  width: 100%;
+  padding: 2rem;
+  font-size: 4.2rem;
+  text-align: center;
+  outline: none;
+  border: 1px solid #c0ffb3;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #394a6d, inset 0 0 5px #52de97;
+}
+
+.suggestions li {
+  width: 85%;
+  padding: 2rem;
+  margin: 0 auto;
+  border-bottom: 1px solid #c0ffb3;
+  box-shadow: 0 0 10px #394a6d;
+  list-style: none;
+  font-size: 2rem;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: space-between;
+}
+
+.suggestions li:nth-child(even) {
+  transform: perspective(100px) rotateX(3deg) translateY(2px);
+  background: linear-gradient(#fff 0%, #c0ffb3 200%);
+}
+
+.suggestions li:nth-child(odd) {
+  transform: perspective(100px) rotateX(-3deg) translateY(2.5px);
+  background: linear-gradient(#fff 0%, #c0ffb3 200%);
+}
+
+span.population {
+  font-size: 1.5rem;
+}
+
+.hl {
+  background: #52de97;
+}
