@@ -1,0 +1,11 @@
+html {
+  background: url(images/water.jpeg) no-repeat center center/cover;
+  min-height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  color: #f4f4f4;
+  padding: 2rem;
+  font-family: monospace;
+}
