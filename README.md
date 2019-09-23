@@ -14,3 +14,4 @@ This repository contains challenges from 30 Day Vanilla JS Coding Challenge orga
 - [05 - FLEX PANEL GALLERY](https://github.com/olgaisaeva/wesbos-js30-challenge/tree/master/05-flex-panel-gallery)
 - [06 - TYPE AHEAD](https://github.com/olgaisaeva/wesbos-js30-challenge/tree/master/06-type-ahead)
 - [07 - ARRAY CARDIO DAY 2](https://github.com/olgaisaeva/wesbos-js30-challenge/tree/master/07-array-cardio-day-2)
+- [08 - FUN WITH HTML5 CANVAS](https://github.com/olgaisaeva/wesbos-js30-challenge/tree/master/08-fun-with-HTML5-canvas)
