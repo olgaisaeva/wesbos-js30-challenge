@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(images/inbox.jpeg) no-repeat center center/cover;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 50px;
+}
+
+#inbox {
+  background-color: #f4f4f4;
+  border: 1px solid #757575;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px #757575, inset 0px 0px 10px #757575;
+  max-width: 450px;
+  margin: 0px auto;
+  padding: 5px;
+  color: #333;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.item:last-child {
+  border-bottom: 0;
+}
+
+.item p {
+  border-left: 1px solid #fae8c8;
+  flex: 1;
+  padding: 20px;
+  font-size: 18px;
+  transition: background 0.2s;
+}
+
+.item input {
+  margin: 20px;
+}
+
+.item input:checked + p {
+  text-decoration: line-through;
+  background: #eeeeee;
+}

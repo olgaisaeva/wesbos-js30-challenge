@@ -16,3 +16,4 @@ This repository contains challenges from 30 Day Vanilla JS Coding Challenge orga
 - [07 - ARRAY CARDIO DAY 2](https://github.com/olgaisaeva/wesbos-js30-challenge/tree/master/07-array-cardio-day-2)
 - [08 - FUN WITH HTML5 CANVAS](https://github.com/olgaisaeva/wesbos-js30-challenge/tree/master/08-fun-with-HTML5-canvas)
 - [09 - DEV TOOLS DOMINATION](https://github.com/olgaisaeva/wesbos-js30-challenge/tree/master/09-dev-tools-domination)
+- [10 - MULTIPLE CHECKBOXES](https://github.com/olgaisaeva/wesbos-js30-challenge/tree/master/10-multiple-checkboxes)
